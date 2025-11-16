@@ -1,0 +1,61 @@
+examples.sparql
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+############################################################
+# 1) List all classes in the ontology (label-based)
+############################################################
+SELECT ?class ?label
+WHERE {
+  ?class a rdfs:Class ;
+         rdfs:label ?label .
+}
+ORDER BY ?label
+
+
+############################################################
+# 2) List all object properties with their labels
+############################################################
+SELECT ?property ?label
+WHERE {
+  ?property a <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+             rdfs:label ?label .
+}
+ORDER BY ?label
+
+
+############################################################
+# 3) List all data properties with their labels
+############################################################
+SELECT ?property ?label
+WHERE {
+  ?property a <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+             rdfs:label ?label .
+}
+ORDER BY ?label
+
+
+############################################################
+# 4) List individuals and their classes
+############################################################
+SELECT ?individual ?label ?classLabel
+WHERE {
+  ?individual a ?class ;
+              rdfs:label ?label .
+  ?class rdfs:label ?classLabel .
+}
+ORDER BY ?classLabel ?label
+
+
+############################################################
+# 5) Generic query: find any labeled relation between individuals
+############################################################
+SELECT ?subjectLabel ?propertyLabel ?objectLabel
+WHERE {
+  ?subject ?property ?object .
+
+  ?subject rdfs:label ?subjectLabel .
+  ?property rdfs:label ?propertyLabel .
+  ?object rdfs:label ?objectLabel .
+}
+ORDER BY ?subjectLabel
