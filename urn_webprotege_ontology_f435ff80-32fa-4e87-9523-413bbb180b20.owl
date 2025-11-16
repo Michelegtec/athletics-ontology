@@ -1,0 +1,468 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:f435ff80-32fa-4e87-9523-413bbb180b20#"
+     xml:base="urn:webprotege:ontology:f435ff80-32fa-4e87-9523-413bbb180b20"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:f435ff80-32fa-4e87-9523-413bbb180b20"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R78AeIpE8mJS1NqVsYOjw7D -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R78AeIpE8mJS1NqVsYOjw7D">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RYjg9TRBzMt10gaJhLCdbA"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RvYHjCyCCyzDFPL3t3DTB7"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasResult</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8KhoT3oEv7nZ7lkyv0RIw3 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8KhoT3oEv7nZ7lkyv0RIw3">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCENgozT6DCIUBZekGVyIxi"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RvYHjCyCCyzDFPL3t3DTB7"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organization supervises Result</rdfs:comment>
+        <rdfs:label>supervisesResult</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8hAfAF6fi9tMoLfr4WslYo -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8hAfAF6fi9tMoLfr4WslYo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBUNDcJKyZ5TJ5Jrdrj2dC7"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9OjjIaFCaiy8K99mJBn7jH"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">athlete has record</rdfs:comment>
+        <rdfs:label>hasRecord</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCujilZIJmQIiuUl2ivCURA -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCujilZIJmQIiuUl2ivCURA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCENgozT6DCIUBZekGVyIxi"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RYjg9TRBzMt10gaJhLCdbA"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organization produces Event</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producesEvent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDMdNCNk14qV9QNbxBAf7YE -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDMdNCNk14qV9QNbxBAf7YE">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBUNDcJKyZ5TJ5Jrdrj2dC7"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RYjg9TRBzMt10gaJhLCdbA"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">athlete participate in event</rdfs:comment>
+        <rdfs:label>participatesIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZDLwD6EA1H9ceZxgm3XYZ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RZDLwD6EA1H9ceZxgm3XYZ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RYjg9TRBzMt10gaJhLCdbA"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RCENgozT6DCIUBZekGVyIxi"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event organized by organization</rdfs:comment>
+        <rdfs:label>organizedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RoBJgFY23H0ADFID9USFvy -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RoBJgFY23H0ADFID9USFvy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBUNDcJKyZ5TJ5Jrdrj2dC7"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RyyxwUyT61WZqkb54OGs5i"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">athete has classification</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasClassification</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1lWRrVTHyXWVs3wsuuXDx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R1lWRrVTHyXWVs3wsuuXDx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9OjjIaFCaiy8K99mJBn7jH"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">record for a Paralympic competition</rdfs:comment>
+        <rdfs:label>ParalympicRecord</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R77ktyGMOdWU1vpkUx2Lthz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R77ktyGMOdWU1vpkUx2Lthz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RyyxwUyT61WZqkb54OGs5i"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Athlete of field (F)</rdfs:comment>
+        <rdfs:label>FieldClassification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7KgkKctwIiORPf3bRTi9G4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7KgkKctwIiORPf3bRTi9G4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9OjjIaFCaiy8K99mJBn7jH"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal record in a competition</rdfs:comment>
+        <rdfs:label>PersonalRecord</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7q0aYMt8gGQG6Tp8ZM7MgD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7q0aYMt8gGQG6Tp8ZM7MgD">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sports involving running, jumping, throwing and walking</rdfs:comment>
+        <rdfs:label>Athletics</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light athletics
+track and field
+sport of athletics</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8KeSP8kZnH9EDkv6Mafwt0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8KeSP8kZnH9EDkv6Mafwt0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RChFV94KyjT3bIz0ZJi1NCO"/>
+        <rdfs:comment rdf:resource="https://www.paralympic.org/athletics/classification"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For athletes with intellectual impairments, must meet the VIRTUS II 1 Eligibility Criteria and shall be listed on the VIRTUS International Eligibility Master list. It is the responsibility of the athlete and the NPC to submit a copy of TSAL-Q form via the SDMS online system.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IntellectualImpariment</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDICAL DIAGNOSTICS FORMS FOR  ALL ATHLETES</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9OjjIaFCaiy8K99mJBn7jH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9OjjIaFCaiy8K99mJBn7jH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7q0aYMt8gGQG6Tp8ZM7MgD"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Record of athletes in events</rdfs:comment>
+        <rdfs:label>Record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9VJ0fxu6Kw85JiRy680n1J -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9VJ0fxu6Kw85JiRy680n1J">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYjg9TRBzMt10gaJhLCdbA"/>
+        <rdfs:comment rdf:resource="https://www.wikidata.org/wiki/Q3312129"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sports involving various running, jumping and throwing disciplines</rdfs:isDefinedBy>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ParaAthleticsEvent</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">track &amp; field
+track and field athletics
+track
+athletics</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9fw01aZbXxbzmwYrSV9WNz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9fw01aZbXxbzmwYrSV9WNz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9VJ0fxu6Kw85JiRy680n1J"/>
+        <rdfs:comment rdf:resource="https://www.wikidata.org/wiki/Q110373000"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">athletics event on a track</rdfs:isDefinedBy>
+        <rdfs:label>TrackEvent</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">athletic event</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB3EEnOdJpZscRU3kK1zhTX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB3EEnOdJpZscRU3kK1zhTX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RChFV94KyjT3bIz0ZJi1NCO"/>
+        <rdfs:comment rdf:resource="https://www.paralympic.org/athletics/classification"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It is the responsibility of the athlete and the NPC to submit a copy of the VI Medical Diagnostics Form (MDF) and all relevant supporting medical documentation via the SDMS online system.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VisionImpairment</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDICAL DIAGNOSTICS FORMS FOR  ALL ATHLETES</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBCYmeNc3KKGrsWCS1Whafl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBCYmeNc3KKGrsWCS1Whafl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RChFV94KyjT3bIz0ZJi1NCO"/>
+        <rdfs:comment rdf:resource="https://www.paralympic.org/athletics/classification"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It is the responsibility of the athlete and the NPC to submit a copy of the Medical Diagnostics Form (MDF) and all relevant supporting medical documentation via the SDMS online system.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PhysicalImpairment</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDICAL DIAGNOSTICS FORMS FOR  ALL ATHLETES</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBUNDcJKyZ5TJ5Jrdrj2dC7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBUNDcJKyZ5TJ5Jrdrj2dC7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7q0aYMt8gGQG6Tp8ZM7MgD"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8hAfAF6fi9tMoLfr4WslYo"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R1lWRrVTHyXWVs3wsuuXDx"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8hAfAF6fi9tMoLfr4WslYo"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7KgkKctwIiORPf3bRTi9G4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8hAfAF6fi9tMoLfr4WslYo"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RjJxJ7BpUr1LxxDEqZNm1q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RoBJgFY23H0ADFID9USFvy"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9fw01aZbXxbzmwYrSV9WNz"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RoBJgFY23H0ADFID9USFvy"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RT0sf820xec6jWNAeg2K5z"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:resource="https://www.wikidata.org/wiki/Q2066131"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">person who participates regularly in a sport</rdfs:isDefinedBy>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Athlete</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sportsman
+sportswoman
+sportsperson
+athletes
+sports competitor</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCENgozT6DCIUBZekGVyIxi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCENgozT6DCIUBZekGVyIxi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYjg9TRBzMt10gaJhLCdbA"/>
+        <rdfs:label>Organization</rdfs:label>
+        <rdfs:seeAlso xml:lang="pt-br">organized by</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RChFV94KyjT3bIz0ZJi1NCO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RChFV94KyjT3bIz0ZJi1NCO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBUNDcJKyZ5TJ5Jrdrj2dC7"/>
+        <rdfs:comment xml:lang="pt-br">https://www.wikidata.org/wiki/Q25439032</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sportsperson competing at Paralympic Games</rdfs:isDefinedBy>
+        <rdfs:label>ParalympicAthlete</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paralympic competitor
+Paralympian
+Paralympic sportswoman
+Paralympic sportsman
+Paralympic sportsperson
+Paralympics athlete
+Paralympics competitor</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RT0sf820xec6jWNAeg2K5z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RT0sf820xec6jWNAeg2K5z">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9VJ0fxu6Kw85JiRy680n1J"/>
+        <rdfs:comment rdf:resource="https://www.wikidata.org/wiki/Q52177345"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">technical discipline of athletics conducted on the field</rdfs:isDefinedBy>
+        <rdfs:label>FieldEvent</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">technical discipline of athletics
+field event</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYjg9TRBzMt10gaJhLCdbA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RYjg9TRBzMt10gaJhLCdbA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7q0aYMt8gGQG6Tp8ZM7MgD"/>
+        <rdfs:comment xml:lang="pt">competition organized by a Paralympic organization</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARA ATHLETICS EVENTS</rdfs:isDefinedBy>
+        <rdfs:label>Event</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/page/Athletics_(sport)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RjJxJ7BpUr1LxxDEqZNm1q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RjJxJ7BpUr1LxxDEqZNm1q">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9OjjIaFCaiy8K99mJBn7jH"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">record in a world competition</rdfs:comment>
+        <rdfs:label>WorldRecord</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RnLn0iIJI0kgKPz7sevHBG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RnLn0iIJI0kgKPz7sevHBG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RyyxwUyT61WZqkb54OGs5i"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Athletes of track (T)</rdfs:comment>
+        <rdfs:label>TrackClassification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RvYHjCyCCyzDFPL3t3DTB7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RvYHjCyCCyzDFPL3t3DTB7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYjg9TRBzMt10gaJhLCdbA"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">result of events</rdfs:comment>
+        <rdfs:label>Result</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RyyxwUyT61WZqkb54OGs5i -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RyyxwUyT61WZqkb54OGs5i">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7q0aYMt8gGQG6Tp8ZM7MgD"/>
+        <rdfs:comment rdf:resource="https://www.wikidata.org/wiki/Q7133626"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">para-athletics classification</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type of classification</rdfs:isDefinedBy>
+        <rdfs:label>Classification</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Para-athletics classification</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7U3hWCqrRVbYXsDIH53glF -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7U3hWCqrRVbYXsDIH53glF">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9fw01aZbXxbzmwYrSV9WNz"/>
+        <rdfs:comment rdf:resource="https://www.wikidata.org/wiki/Q73633"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paralympic Games Event</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">major international sport event for people with disabilities</rdfs:comment>
+        <rdfs:label>Paralympic Games</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCVheWGQEi8XacbGW584jw1 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCVheWGQEi8XacbGW584jw1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RvYHjCyCCyzDFPL3t3DTB7"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">result men&apos;s 100m t47</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Result 10s29</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD1L2sWaMLKOYpTg4uIdnrX -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RD1L2sWaMLKOYpTg4uIdnrX">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R1lWRrVTHyXWVs3wsuuXDx"/>
+        <rdfs:comment rdf:resource="https://www.wikidata.org/wiki/Q16814749"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paralympic Record</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDpv05a4QFMXwH6pjk9CQsT -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDpv05a4QFMXwH6pjk9CQsT">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCENgozT6DCIUBZekGVyIxi"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8KhoT3oEv7nZ7lkyv0RIw3"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RvYHjCyCCyzDFPL3t3DTB7"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:RCujilZIJmQIiuUl2ivCURA rdf:resource="http://webprotege.stanford.edu/R7U3hWCqrRVbYXsDIH53glF"/>
+        <rdfs:comment rdf:resource="https://www.wikidata.org/wiki/Q118954009"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subcommittee of the International Paralympic Committee</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">World Para Athletics</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSZdyaYGAXJvAVS39PKPi1 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RSZdyaYGAXJvAVS39PKPi1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBCYmeNc3KKGrsWCS1Whafl"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RChFV94KyjT3bIz0ZJi1NCO"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDMdNCNk14qV9QNbxBAf7YE"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9fw01aZbXxbzmwYrSV9WNz"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RoBJgFY23H0ADFID9USFvy"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RnLn0iIJI0kgKPz7sevHBG"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R78AeIpE8mJS1NqVsYOjw7D rdf:resource="http://webprotege.stanford.edu/RCVheWGQEi8XacbGW584jw1"/>
+        <webprotege:R8hAfAF6fi9tMoLfr4WslYo rdf:resource="http://webprotege.stanford.edu/RD1L2sWaMLKOYpTg4uIdnrX"/>
+        <webprotege:RDMdNCNk14qV9QNbxBAf7YE rdf:resource="http://webprotege.stanford.edu/R7U3hWCqrRVbYXsDIH53glF"/>
+        <rdfs:comment rdf:resource="https://www.wikidata.org/wiki/Q26921066"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Men&apos;s 100 m T47</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paralympic athlete &quot;fastest in the world&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petrucio Ferreira</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
